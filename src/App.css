@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-sootihng: antialiased;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+}
+
+:root {
+  --primary-color: hsl(94, 59%, 35%);
+  --Hover-color: #bdf094;
+  --pale-green: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyColor: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+
+  /* font Typographi */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FonSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+/* default styles */
+
+html {
+  font-size: 90%;
+}
